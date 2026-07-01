@@ -1,0 +1,16 @@
+{
+  "name": "functionextractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "prismarine-nbt": "^2.8.0"
+  }
+}
