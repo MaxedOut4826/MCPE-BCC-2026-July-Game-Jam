@@ -1,1 +1,0 @@
-execute as @a[scores={game.dialogue.sequence=0..}] if score @s game.dialogue.pointer < @s game.dialogue.length run function dialogue/manager

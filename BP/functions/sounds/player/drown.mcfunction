@@ -1,0 +1,1 @@
+playsound mob.drowned.say @a[r=8,tag=query.is_underwater] ~ ~ ~ 0.1 0.45 0

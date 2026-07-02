@@ -1,0 +1,1 @@
+effect @e[tag=property.invisibility] invisibility 1 0 true

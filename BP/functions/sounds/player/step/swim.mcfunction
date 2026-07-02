@@ -1,0 +1,1 @@
+playsound bubble.up @s[r=8,tag=query.is_underwater] ~ ~ ~ 0.1425 0.25 0

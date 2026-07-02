@@ -1,0 +1,1 @@
+playsound mob.slime.jump @a[r=8,scores={game.sfx.ambient.mood=!1}] ~ ~ ~ 0.125 2.5 0

@@ -1,0 +1,1 @@
+playsound bundle.remove_one @a[r=8] ~ ~ ~ 0.18 0.7 0

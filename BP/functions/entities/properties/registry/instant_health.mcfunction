@@ -1,0 +1,1 @@
+effect @e[tag=property.instant_health] instant_health 3 255 true

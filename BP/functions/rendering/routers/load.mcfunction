@@ -1,0 +1,1 @@
+execute as @a[x=999,y=999,z=999,dx=0,dy=0,dz=0] run function rendering/areas/example

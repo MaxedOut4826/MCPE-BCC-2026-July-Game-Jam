@@ -1,0 +1,1 @@
+playsound bundle.insert @a[r=8,tag=!query.is_underwater] ~ ~ ~ 0.088 1.4 0

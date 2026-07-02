@@ -1,0 +1,5 @@
+execute unless score @s game.hud.tooltip.timer matches 1.. run scoreboard players set @s game.hud.tooltip.timer 0
+playsound item.spyglass.use @s ~ ~ ~ 0.8 0.8 0.8
+
+# Show tooltip
+titleraw @s[scores={game.hud.tooltip=!0}] actionbar {"rawtext":[{"translate":"%%%%s","with":{"rawtext":[{"score":{"name":"*","objective":"game.hud.tooltip"}},{"text":"§fHold§l§e :_input_key.forward::_input_key.left::_input_key.back::_input_key.right: §r§fto move"},{"text":"§fPress§l§e :_input_key.jump: §r§fto jump" },{"text":"§fHold§l§e :_input_key.sneak: §r§fto sneak" },{"text":"§fDouble tap§l§e :_input_key.sneak: §r§fto crawl"},{"text":"§fPress§l§e :_input_key.sprint: §r§fto run" },{"text":"§fPress§l§e :_input_key.attack: §r§fto interact" },{"text":"§fPress§l§e :_input_key.inventory: §r§fto open inventory"},{"text":"§fPress§l§e :_input_key.jump: §r§fto stop crawling"}]}}]}

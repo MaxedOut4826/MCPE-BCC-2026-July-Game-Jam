@@ -1,0 +1,1 @@
+execute as @e[tag=class.particle] run function particles/manager

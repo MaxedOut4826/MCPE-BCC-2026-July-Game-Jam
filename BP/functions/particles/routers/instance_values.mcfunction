@@ -1,0 +1,1 @@
+execute as @e[tag=particle.artefact.glyph] run function particles/instances/example_glyph

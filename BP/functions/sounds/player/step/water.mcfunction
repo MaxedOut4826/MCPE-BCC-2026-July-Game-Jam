@@ -1,0 +1,1 @@
+playsound random.swim @s[r=8] ~ ~ ~ 0.125 0.6 0

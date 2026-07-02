@@ -19,10 +19,10 @@ scoreboard objectives add game.sfx.ambient.random dummy
 scoreboard objectives add game.sfx.random dummy
 
 # Global
-scoreboard objectives add global.constant dummy
 scoreboard objectives add global.displace.x dummy
 scoreboard objectives add global.displace.y dummy
 scoreboard objectives add global.displace.z dummy
+scoreboard objectives add global.constant dummy
 scoreboard objectives add global.generic dummy
 scoreboard objectives add global.random dummy
 scoreboard objectives add global.timer dummy
@@ -37,14 +37,14 @@ scoreboard objectives add game.animation.state dummy
 scoreboard objectives add game.animation.timer dummy
 
 # Player
-scoreboard objectives add delta.player.render.room dummy
-scoreboard objectives add player.render.room dummy
+scoreboard objectives add delta.player.render.area dummy
+scoreboard objectives add player.render.area dummy
 scoreboard objectives add player.step dummy
+scoreboard objectives add query.player.crouch dummy
+scoreboard objectives add query.player.joined_world dummy
 scoreboard objectives add temp.player.crawl_time dummy
 scoreboard objectives add temp.player.drowning dummy
 scoreboard objectives add temp.player.wetness dummy
-scoreboard objectives add query.player.crouch dummy
-scoreboard objectives add query.player.joined_world dummy
 
 # Game
 scoreboard objectives add delta.game.animation.progress dummy

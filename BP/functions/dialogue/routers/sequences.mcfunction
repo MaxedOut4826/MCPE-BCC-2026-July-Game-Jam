@@ -1,0 +1,1 @@
+execute if score @s game.game.dialogue.sequence matches 1 run function dialogue/sequences/example

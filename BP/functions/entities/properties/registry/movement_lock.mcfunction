@@ -1,0 +1,1 @@
+execute as @e[tag=property.movement_lock] run tp @s

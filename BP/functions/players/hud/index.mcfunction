@@ -1,0 +1,1 @@
+function players/hud/tooltips/manager

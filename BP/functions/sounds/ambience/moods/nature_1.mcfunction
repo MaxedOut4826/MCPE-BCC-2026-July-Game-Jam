@@ -1,0 +1,2 @@
+execute as @a[scores={game.sfx.ambient.mood=2,game.sfx.ambient.loop_time=0}] positioned as @s run playsound ambient.soulsand_valley.loop @s ~ ~ ~ 0.2 1 0.2
+execute as @a[scores={game.sfx.ambient.mood=2,game.sfx.ambient.loop_time=0}] positioned as @s run playsound ambient.weather.rain @s ~ ~ ~ 0.6 0.3 0.6

@@ -1,0 +1,1 @@
+playsound mob.snowgolem.hurt @a[r=8,tag=!query.is_underwater] ~ ~ ~ 0.04 1.4 0
