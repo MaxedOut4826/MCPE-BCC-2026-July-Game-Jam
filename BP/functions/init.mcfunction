@@ -40,7 +40,7 @@ scoreboard objectives add game.animation.timer dummy
 scoreboard objectives add delta.player.render.area dummy
 scoreboard objectives add player.render.area dummy
 scoreboard objectives add player.step dummy
-scoreboard objectives add query.player.crouch dummy
+scoreboard objectives add query.player.input.sneak.double_window dummy
 scoreboard objectives add query.player.joined_world dummy
 scoreboard objectives add temp.player.crawl_time dummy
 scoreboard objectives add temp.player.drowning dummy

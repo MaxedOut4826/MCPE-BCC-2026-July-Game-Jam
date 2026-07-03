@@ -1,0 +1,1 @@
+titleraw @a[tag=dev.debug.crawl] actionbar {"rawtext":[{"text":"query.player.input.sneak.double_window = "},{"score":{"name":"*","objective":"query.player.input.sneak.double_window"}},{"text":"\ntemp.player.crawl_time = "},{"score":{"name":"*","objective":"temp.player.crawl_time"}}]}
