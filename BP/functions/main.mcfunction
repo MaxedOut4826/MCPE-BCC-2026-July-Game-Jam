@@ -4,3 +4,4 @@ function rendering/manager
 function dialogue/manager
 function particles/manager
 function sounds/manager
+function players/manager
