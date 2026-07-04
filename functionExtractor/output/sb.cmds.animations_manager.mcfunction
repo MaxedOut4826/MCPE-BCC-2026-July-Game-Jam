@@ -51,19 +51,19 @@ execute positioned as @e[scores={game.animation.state=1,game.animation.timer=90}
 execute positioned as @e[scores={game.animation.state=1,game.animation.timer=100},tag=obj.artefact.base] run playsound mob.breeze.charge @a[r=32] ~ ~ ~ 0.3 0.4 0
 execute positioned as @e[scores={game.animation.state=1,game.animation.timer=105},tag=obj.artefact.base] run playsound mob.breeze.charge @a[r=32] ~ ~ ~ 0.375 0.5 0
 execute positioned as @e[scores={game.animation.state=1,game.animation.timer=110},tag=obj.artefact.base] run playsound mob.breeze.charge @a[r=32] ~ ~ ~ 0.45 0.5 0
+execute positioned as @e[scores={game.animation.state=1,game.animation.timer=117},tag=obj.artefact.base] run particle minecraft:sonic_explosion ~-0.05 ~2.5 ~-0.05
 execute positioned as @e[scores={game.animation.state=1,game.animation.timer=120},tag=obj.artefact.base] run playsound item.trident.riptide_1 @a[r=32] ~ ~ ~ 0.45 0.6 0
 execute positioned as @e[scores={game.animation.state=1,game.animation.timer=120},tag=obj.artefact.base] run playsound item.trident.return @a[r=32] ~ ~ ~ 0.585 0.1 0
+execute positioned as @e[scores={game.animation.state=1,game.animation.timer=120},tag=obj.artefact.base] as @e[c=2] as @e[c=2] as @e[c=2] run structure load obj.artefact.fragment ~ ~ ~ 0_degrees none true false
 execute positioned as @e[scores={game.animation.state=1,game.animation.timer=125},tag=obj.artefact.base] run playsound breeze_wind_charge.burst @a[r=32] ~ ~ ~ 0.5 0.445 0
 execute positioned as @e[scores={game.animation.state=1,game.animation.timer=125},tag=obj.artefact.base] run playsound random.glass @a[r=32] ~ ~ ~ 0.2756 0.15 0
 execute positioned as @e[scores={game.animation.state=1,game.animation.timer=125},tag=obj.artefact.base] run playsound note.flute @a[r=32] ~ ~ ~ 1 0.05 1
 execute positioned as @e[scores={game.animation.state=1,game.animation.timer=125},tag=obj.artefact.base] run playsound mob.creaking.activate @a[r=32] ~ ~ ~ 0.6 0.5 0
 execute positioned as @e[scores={game.animation.state=1,game.animation.timer=125},tag=obj.artefact.base] run playsound apply_effect.raid_omen @a[r=32] ~ ~ ~ 0.3 0.5 0
-execute positioned as @e[scores={game.animation.state=1,game.animation.timer=117},tag=obj.artefact.base] run particle minecraft:sonic_explosion ~-0.05 ~2.5 ~-0.05
 execute positioned as @e[scores={game.animation.state=1,game.animation.timer=125},tag=obj.artefact.base] run particle minecraft:creaking_crumble_body ~ ~3 ~
 execute positioned as @e[scores={game.animation.state=1,game.animation.timer=125},tag=obj.artefact.base] run tag @e[tag=obj.artefact.light_ray] add event.remove_entity
 replaceitem entity @e[scores={game.animation.state=1,game.animation.timer=125},tag=obj.artefact.base] slot.weapon.mainhand 0 respawn_anchor 1 0
 replaceitem entity @e[scores={game.animation.state=1,game.animation.timer=125},tag=obj.artefact.base_flesh] slot.weapon.mainhand 0 crimson_hyphae 1 0
-execute positioned as @e[scores={game.animation.state=1,game.animation.timer=120},tag=obj.artefact.base] as @e[c=2] as @e[c=2] as @e[c=2] run structure load obj.artefact.fragment ~ ~ ~ 0_degrees none true false
 scoreboard players add @e[scores={game.animation.state=1,game.animation.timer=126},tag=obj.artefact.base] game.animation.state 1
 execute positioned as @e[scores={game.animation.state=2,game.animation.timer=30},tag=obj.artefact.base] run playsound mob.evocation_illager.prepare_summon @a[r=32] ~ ~ ~ 0.7 0.4 0
 execute positioned as @e[scores={game.animation.state=2,game.animation.timer=35},tag=obj.artefact.base] run playsound beacon.power @a[r=32] ~ ~ ~ 0.99 0.4 0
@@ -125,26 +125,6 @@ execute positioned as @e[scores={game.animation.state=5,game.animation.timer=95}
 execute positioned as @e[scores={game.animation.state=5,game.animation.timer=95},tag=obj.artefact.base] run playsound block.eyeblossom.open_long @a[r=32] ~ ~ ~ 1 0.8 0
 execute positioned as @e[scores={game.animation.state=5,game.animation.timer=95},tag=obj.artefact.base] run playsound ambient.weather.the_end_light_flash @a[r=32] ~ ~ ~ 1 0.9 0
 execute positioned as @e[scores={game.animation.state=5,game.animation.timer=95},tag=obj.artefact.base] run playsound conduit.short @a[r=32] ~ ~ ~ 1 0.7 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=20}] run playsound block.grindstone.use @a[r=30] ~ ~ ~ 0.85 0.2 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=20}] run playsound block.grindstone.use @a[r=30] ~ ~ ~ 0.7 4 06
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=20}] run playsound armor.equip_chain @s ~ ~2.5 ~ 1 0.2 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=20}] run playsound mob.irongolem.throw @a[r=30] ~ ~ ~ 1 0.1 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=21}] run playsound beacon.ambient @a[r=30] ~ ~ ~ 0.3 0.75 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=100}] run playsound mob.bee.loop @a[r=30] ~ ~ ~ 0.045 100 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=100}] run playsound armor.equip_chain @a[r=30] ~ ~2 ~ 1 0.2 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=159}] run playsound mob.irongolem.repair @a[r=30] ~ ~ ~ 0.8 0.2 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=159}] run playsound note.chime @a[r=30] ~ ~ ~ 0.8 0.2 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=45}] run playsound crossbow.loading.middle @a[r=30] ~ ~ ~ 0.5 0.225 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=120}] run playsound scrape @a[r=30] ~ ~ ~ 0.7 0.3 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=100}] run playsound scrape @a[r=30] ~ ~ ~ 0.6 3 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=159}] run playsound item.spyglass.use @a[r=30] ~ ~2 ~ 0.2125 0.6 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=20}] run playsound mob.irongolem.hit @a[r=30] ~ ~ ~ 0.3 0.2 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=20..149}] run playsound beacon.ambient @a[r=30] ~ ~ ~ 0.125 6 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=169}] run playsound mob.irongolem.repair @a[r=30] ~ ~ ~ 0.5 0.2 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=179}] run playsound mob.irongolem.repair @a[r=30] ~ ~ ~ 0.25 0.2 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=189}] run playsound mob.irongolem.repair @a[r=30] ~ ~ ~ 0.125 0.2 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=199}] run playsound mob.irongolem.repair @a[r=30] ~ ~ ~ 0.06125 0.2 0
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=209}] run playsound mob.irongolem.repair @a[r=30] ~ ~ ~ 0.030725 0.2 0
 execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=0}] run playsound armor.equip_netherite @a[r=30] ~ ~ ~ 0.7 1 0
 execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=0}] run playsound armor.equip_netherite @a[r=30] ~ ~ ~ 0.4 0.8 0
 execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=0}] run playsound armor.equip_netherite @a[r=30] ~ ~ ~ 0.3 1.2 0
@@ -154,7 +134,27 @@ execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,gam
 execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=5}] run playsound balloon.pop @a[r=30] ~ ~ ~ 0.08 0.1 0
 execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=5}] run playsound balloon.pop @a[r=30] ~ ~ ~ 0.06 0.3 0
 execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=5}] run playsound mob.bee.sting @a[r=30] ~ ~ ~ 0.5 0.05 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=20}] run playsound block.grindstone.use @a[r=30] ~ ~ ~ 0.85 0.2 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=20}] run playsound block.grindstone.use @a[r=30] ~ ~ ~ 0.7 4 06
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=20}] run playsound armor.equip_chain @s ~ ~2.5 ~ 1 0.2 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=20}] run playsound mob.irongolem.throw @a[r=30] ~ ~ ~ 1 0.1 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=20}] run playsound mob.irongolem.hit @a[r=30] ~ ~ ~ 0.3 0.2 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=21}] run playsound beacon.ambient @a[r=30] ~ ~ ~ 0.3 0.75 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=45}] run playsound crossbow.loading.middle @a[r=30] ~ ~ ~ 0.5 0.225 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=100}] run playsound mob.bee.loop @a[r=30] ~ ~ ~ 0.045 100 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=100}] run playsound scrape @a[r=30] ~ ~ ~ 0.6 3 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=100}] run playsound armor.equip_chain @a[r=30] ~ ~2 ~ 1 0.2 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=120}] run playsound scrape @a[r=30] ~ ~ ~ 0.7 0.3 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=159}] run playsound mob.irongolem.repair @a[r=30] ~ ~ ~ 0.8 0.2 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=159}] run playsound note.chime @a[r=30] ~ ~ ~ 0.8 0.2 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=159}] run playsound item.spyglass.use @a[r=30] ~ ~2 ~ 0.2125 0.6 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=169}] run playsound mob.irongolem.repair @a[r=30] ~ ~ ~ 0.5 0.2 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=179}] run playsound mob.irongolem.repair @a[r=30] ~ ~ ~ 0.25 0.2 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=189}] run playsound mob.irongolem.repair @a[r=30] ~ ~ ~ 0.125 0.2 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=199}] run playsound mob.irongolem.repair @a[r=30] ~ ~ ~ 0.06125 0.2 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=209}] run playsound mob.irongolem.repair @a[r=30] ~ ~ ~ 0.030725 0.2 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=20..149}] run playsound beacon.ambient @a[r=30] ~ ~ ~ 0.125 6 0
+execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=20..159}] run playsound item.spyglass.use @a[r=30] ~ ~6 ~ 0.16 0.8 0
 scoreboard players set @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=210..}] game.animation.state 2
 playanimation @a animation.allay.idle animation.allay.idle 0 "" player:idle.breathe
 playanimation @a[m=!c] animation.creeper.swelling none 0 "v.swelling_scale1=(v.swelling_scale2=q.distance_from_camera?1:0);" test
-execute positioned as @e[tag=obj.gate.hf.main,scores={game.animation.state=1,game.animation.timer=20..159}] run playsound item.spyglass.use @a[r=30] ~ ~6 ~ 0.16 0.8 0

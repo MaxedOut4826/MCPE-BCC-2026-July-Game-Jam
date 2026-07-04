@@ -1,0 +1,1 @@
+function animations/client/fallback_interval

@@ -1,0 +1,2 @@
+execute if score @s game.animation.state matches 1 run function animations/server/registry/example_gate/state_1
+execute if score @s game.animation.state matches 2 run function animations/server/registry/example_gate/state_2

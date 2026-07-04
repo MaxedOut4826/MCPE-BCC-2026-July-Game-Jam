@@ -1,1 +1,0 @@
-execute if entity @s[tag=!query.is_initiated] run function players/procedures/first_join

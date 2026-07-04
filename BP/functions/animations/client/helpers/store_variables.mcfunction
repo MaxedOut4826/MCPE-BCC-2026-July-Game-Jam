@@ -1,0 +1,2 @@
+# Reset client variables on animation state update
+playanimation @s animation.frog.croak null 0 "v.previous_anim_time=v.anim_time??0;v.anim_time=0;v.start_xzscale=v.xzscale??0;v.start_yscale=v.yscale??0;v.start_scale=v.scale??0;v.start_xrot=v.xrot??0;v.start_yrot=v.yrot??0;v.start_zrot=v.zrot??0;v.start_xpos=v.xpos??0;v.start_ypos=v.ypos??0;v.start_zpos=v.zpos??0;v.start_rot_speed=v.rot_speed??0;v.start_orbiting_speed=v.orbiting_speed??0;v.start_phase=v.phase??0;return1;" obj.animated:state_change

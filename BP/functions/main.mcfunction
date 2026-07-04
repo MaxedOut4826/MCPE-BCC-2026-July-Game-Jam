@@ -1,8 +1,9 @@
-function players/manager
 function entities/properties/index
-function entities/events/displace/manager
+function entities/events/index
+function players/manager
 function rendering/manager
-function dialogue/manager
-function particles/manager
+function animations/tick
 function sounds/manager
+function particles/manager
+function dialogue/manager
 function debug/index

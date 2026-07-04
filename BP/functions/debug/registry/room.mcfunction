@@ -1,0 +1,1 @@
+titleraw @a[tag=dev.debug.room] actionbar {"rawtext":[{"text":"player.render.area = "},{"score":{"name":"*","objective":"player.render.area"}}]}

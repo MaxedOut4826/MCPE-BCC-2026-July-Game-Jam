@@ -1,0 +1,2 @@
+execute as @e[tag=gate.hf.main] positioned as @s run function animations/server/registry/example_gate/router
+execute as @e[tag=example2] positioned as @s run function animations/server/registry/example2/router

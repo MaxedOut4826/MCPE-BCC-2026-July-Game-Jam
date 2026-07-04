@@ -1,0 +1,1 @@
+playanimation @s animation.frog.croak null 0 "v.yscale=v.yscale??0.001;v.scale=math.ease_in_cubic(0.0762551,0,math.clamp(q.distance_from_camera/4,0,1));v.xrot=math.clamp(-q.camera_rotation(0)+90,70,110);v.yrot=q.rotation_to_camera(1);v.zrot=25;v.ypos=-4;" obj.interact_icon:values

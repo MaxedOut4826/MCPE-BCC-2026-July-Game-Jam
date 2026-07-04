@@ -1,0 +1,2 @@
+playanimation @s animation.creeper.swelling none 0 "v.swelling_scale1=(v.swelling_scale2=q.distance_from_camera?1:0);" player:hud.hide_hand
+playanimation @s animation.allay.idle animation.allay.idle 0 "" player:idle.breathe

@@ -1,3 +1,6 @@
+# Cancel natural music
+music volume 0
+
 stopsound @a mob.fox.sniff
 stopsound @a mob.fox.sleep
 stopsound @a mob.fox.aggro

@@ -1,0 +1,1 @@
+execute as @a positioned as @s anchored eyes if block ~ ~ ~ bed run function players/procedures/cancel_sleep

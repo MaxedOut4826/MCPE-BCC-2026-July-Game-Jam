@@ -1,0 +1,1 @@
+execute as @e[tag=property.animated] run function animations/manager

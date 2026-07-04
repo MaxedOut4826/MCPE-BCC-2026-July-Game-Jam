@@ -1,0 +1,1 @@
+execute if entity @s[scores={game.animation.timer=0}] run say 2
