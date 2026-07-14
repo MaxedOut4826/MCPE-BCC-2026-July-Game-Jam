@@ -1,6 +1,9 @@
 # Increment active crawl timer
 scoreboard players add @s temp.player.crawl_time 1
 
+# Remove old barriers
+fill ~3 ~3 ~3 ~-3 ~-1 ~-3 air replace barrier
+
 # Place barrier at player head to force crawling
 setblock ~ ~1.5 ~ barrier keep
 
